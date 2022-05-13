@@ -9,8 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var uibutton = UIButton(frame: .infinite)
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.addSubview(uibutton)
         // Do any additional setup after loading the view.
     }
 
