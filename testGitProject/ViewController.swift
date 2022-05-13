@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     var uibutton = UIButton(frame: .infinite)
     
+    var label = UILabel(frame: .null)
     override func viewDidLoad() {
         super.viewDidLoad()
         uibutton.titleLabel?.text = "ok"
