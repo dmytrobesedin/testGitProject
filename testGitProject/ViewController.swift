@@ -10,7 +10,6 @@ import UIKit
 class ViewController: UIViewController {
 
     var uibutton = UIButton(frame: .infinite)
-    var myLabel = UILabel(frame: .infinite)
     override func viewDidLoad() {
         super.viewDidLoad()
         uibutton.titleLabel?.text = "ok"

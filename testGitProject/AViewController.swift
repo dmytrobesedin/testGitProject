@@ -8,7 +8,7 @@
 import UIKit
 
 class AViewController: UIViewController {
-
+    let anotherLabelCom = UILabel(frame: .null)
     override func viewDidLoad() {
         super.viewDidLoad()
 
